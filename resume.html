@@ -42,6 +42,19 @@
         .job-title {
             font-weight: bold;
         }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        table th, table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        table th {
+            background-color: #f4f4f4;
+        }
     </style>
 </head>
 <body>
@@ -50,6 +63,12 @@
         <h2>University of Northern Colorado, Class of 2025</h2>
         <p>Expected Graduation: May 2025 | GPA: 3.7</p>
     </header>
+    
+    <section>
+        <div class="section-title">Contact Information</div>
+        <p>Phone: 303-242-0569</p>
+        <p>Email: <a href="mailto:jone6915@bears.unco.edu">jone6915@bears.unco.edu</a></p>
+    </section>
     
     <section>
         <div class="section-title">Education</div>
@@ -83,12 +102,28 @@
     
     <section>
         <div class="section-title">Skills</div>
-        <ul>
-            <li>Graphic Design (Adobe Creative Suite: Photoshop, Illustrator, InDesign)</li>
-            <li>Creative Problem-Solving and Collaboration</li>
-            <li>Marketing and Branding Strategies</li>
-            <li>Time Management and Meeting Deadlines</li>
-        </ul>
+        <table>
+            <tr>
+                <th>Category</th>
+                <th>Skills</th>
+            </tr>
+            <tr>
+                <td>Design Tools</td>
+                <td>Adobe Photoshop, Illustrator, InDesign</td>
+            </tr>
+            <tr>
+                <td>Soft Skills</td>
+                <td>Creative Problem-Solving, Collaboration</td>
+            </tr>
+            <tr>
+                <td>Marketing</td>
+                <td>Branding Strategies, Marketing Concepts</td>
+            </tr>
+            <tr>
+                <td>Time Management</td>
+                <td>Meeting Deadlines, Organization</td>
+            </tr>
+        </table>
     </section>
 </body>
 </html>
