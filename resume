@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faith Jones - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 2em;
+            margin: 0;
+        }
+        h2 {
+            color: #666;
+            font-size: 1.2em;
+            margin: 5px 0;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        .section-title {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #0056b3;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .job-title {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Faith Jones</h1>
+        <h2>University of Northern Colorado, Class of 2025</h2>
+        <p>Expected Graduation: May 2025 | GPA: 3.7</p>
+    </header>
+    
+    <section>
+        <div class="section-title">Education</div>
+        <ul>
+            <li>
+                <strong>University of Northern Colorado</strong> — Greeley, CO<br>
+                <em>Bachelor’s Degree, Expected May 2025</em>
+            </li>
+        </ul>
+    </section>
+    
+    <section>
+        <div class="section-title">Experience</div>
+        <ul>
+            <li>
+                <span class="job-title">Student Graphic Designer</span><br>
+                UNC DEI Creative Design Hub, Greeley, CO<br>
+                <em>2021 - Present</em><br>
+                - Collaborated on designs promoting diversity, equity, and inclusion initiatives.<br>
+                - Created marketing materials for university-wide campaigns and events.
+            </li>
+            <li>
+                <span class="job-title">Graphic Design Intern</span><br>
+                Magazine Publishing Company<br>
+                <em>Summer 2023</em><br>
+                - Designed the book cover for Maria Liberati, author of *The Basic Art of Italian Cooking*.<br>
+                - Coordinated with editorial and creative teams to deliver high-quality designs.
+            </li>
+        </ul>
+    </section>
+    
+    <section>
+        <div class="section-title">Skills</div>
+        <ul>
+            <li>Graphic Design (Adobe Creative Suite: Photoshop, Illustrator, InDesign)</li>
+            <li>Creative Problem-Solving and Collaboration</li>
+            <li>Marketing and Branding Strategies</li>
+            <li>Time Management and Meeting Deadlines</li>
+        </ul>
+    </section>
+</body>
+</html>
